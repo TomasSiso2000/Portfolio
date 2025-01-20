@@ -1,0 +1,119 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f4f4f4, #e4e4e4);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navigation menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #0056b3;
+}
+
+#menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+#menu li a:hover {
+    color: #FF5733;
+}
+
+/* Form styles */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Form validation styles */
+.form-group-incorrecto {
+    border: 2px solid #DC3545 !important;
+}
+
+.form-group-correcto {
+    border: 2px solid #28A745 !important;
+}
+
+.formulario__input-error {
+    color: #DC3545;
+    font-size: 14px;
+    display: none;
+}
+
+.formulario__input-error-activo {
+    display: block;
+}
+
+/* Buttons */
+button {
+    background: #28A745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    #menu {
+        flex-direction: column;
+        display: none;
+    }
+    .show-menu {
+        display: flex;
+    }
+    nav button {
+        display: block;
+    }
+}
