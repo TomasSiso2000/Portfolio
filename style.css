@@ -11,6 +11,19 @@
   color: white;
 }
 
+.info-content_p {
+    color: magenta; /* Mantiene el color del texto */
+    background-color: rgba(255, 179, 17, 0.1); /* Fondo suave con color dorado */
+    padding: 20px 30px; /* Espaciado interno para hacerlo más cómodo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    max-width: 80%; /* Ajusta el ancho máximo */
+    margin: 20px auto; /* Centrado con un margen en la parte superior e inferior */
+    font-size: 1.2em; /* Ajusta el tamaño de la fuente */
+    line-height: 1.6; /* Mejor altura de línea para mayor legibilidad */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+}
+
 .portfolio, .contact-section{
     width:100vw;
     
@@ -85,7 +98,7 @@ h1{
 }
 
 span{
-    color:magenta;
+    color:rgb(255, 179, 17);
 }
 
 .download-cv, .project-details-button{
@@ -117,11 +130,14 @@ span{
 }
 
 #main_img-yo{
-    margin-bottom: 100px;
     position: relative;
-    width:550px;
-    border: 7px solid magenta;
-    height: 520px;
+    width: 450px;
+    border: 3px solid rgb(255, 179, 17);
+    height: 420px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    background-color: white;
 }
 
 #main_img-informatica{
