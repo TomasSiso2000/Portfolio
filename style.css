@@ -5,6 +5,10 @@
     font-family: 'Arial', sans-serif;
 }
 
+ul li {
+    text-align: left;
+}
+
 a {
     font-family: 'Arial', sans-serif;
 }
