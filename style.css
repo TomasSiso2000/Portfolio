@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
-
+.about-info{
+	margin-left:10%;
+}
 ul {
     text-align: left;
 }
