@@ -4,9 +4,7 @@
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
-.about-info{
-	margin-left:10%;
-}
+
 ul {
     text-align: left;
 }
@@ -195,7 +193,6 @@ span{
 
 .about{
     display: grid;
-    grid-template-columns: repeat(10,1fr);
     width: 100vw;
     align-items: center;
 
